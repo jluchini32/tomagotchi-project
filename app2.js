@@ -35,6 +35,12 @@ const moveGifLeft = () => {
     })
 }
 
+const moveGifRight = () => {
+    $("#image-2").animate({
+            right: "-=200px"
+        }, 1000, function(){   
+    })
+}
 
 
 const ageCt = () => {
@@ -117,6 +123,7 @@ $('.play-button').click(function(){
 });
 
 $('.sleep-button').click(function(){
+    moveGifRight();
     pet.sleepiness = pet.boredom - 3;
     console.log('sleep button clicked');
 });
