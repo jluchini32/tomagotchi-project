@@ -1,0 +1,85 @@
+*{
+    background-color: black;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+
+.container {
+position:relative; 
+}
+
+#image-1 {
+position:absolute; 
+top: 0px; 
+left: 0px; 
+z-index: 1; 
+} 
+#image-2 {
+position:absolute; 
+top: 70px; 
+left: 100px; 
+z-index: 3; 
+background-color: transparent; 
+} 
+
+#flex-box{
+    text-align: center;
+}
+
+
+#box2{
+    text-align: center;
+}
+
+#number-box{
+    color:white;
+}
+
+.feed-button {
+border-radius: 12px;
+color: blue;
+background-color: gray;
+font-size: 35px;
+}
+
+.sleep-button {
+border-radius: 12px;
+background-color: gray;
+color: blue;
+font-size: 35px; 
+}
+
+.play-button {
+border-radius: 12px;
+background-color: gray;
+color: blue;   
+font-size: 35px; 
+}
+
+.start{
+    color: black;
+    background-color: green;
+    font-size: 25px;
+}
+
+.stop{
+    color:black;
+    background-color: red;
+    font-size:25px;
+}
+
+#inputName {
+    color:gray;
+    border: none;
+    width: 50%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
