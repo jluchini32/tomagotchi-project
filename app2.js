@@ -93,6 +93,7 @@ function myStopFunction() {
 }
 
 
+
 $('.feed-button').click(function(){
     pet.hunger = pet.hunger -3;
     console.log('feed button clicked');

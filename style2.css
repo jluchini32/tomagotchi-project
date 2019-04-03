@@ -22,8 +22,8 @@ z-index: 1;
 } 
 #image-2 {
 position:absolute; 
-top: 70px; 
-left: 100px; 
+top: 150px; 
+left: 150px; 
 z-index: 3; 
 background-color: transparent; 
 } 
