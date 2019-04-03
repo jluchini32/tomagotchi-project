@@ -13,6 +13,8 @@ let boredom = -1;  //1-10....10 = dead
 let sleepiness = -1;  //1-10....10 = dead
 let age = -1;
 
+
+
 class Tomagotchi {
     constructor(name) {
       this.name = name;
@@ -58,6 +60,7 @@ $('.hunger').text("Hunger: " + pet.hunger + "/10");
     if(pet.boredom === 10){
             myStopFunction();
         alert("your tomagotchi died of boredom");
+        alert("Game over!");
 
     }
 $('.boredom').text("Boredom: " + pet.boredom + "/10")
@@ -67,6 +70,7 @@ $('.boredom').text("Boredom: " + pet.boredom + "/10")
     if(pet.sleepiness === 10){
             myStopFunction();
         alert("your tomagotchi died of tiredness");
+        alert('Game over!');
     }
 $('.sleepiness').text("Sleepiness: " + pet.sleepiness + "/10")
     } if (seconds % 5 === 0){
@@ -79,6 +83,7 @@ $('.sleepiness').text("Sleepiness: " + pet.sleepiness + "/10")
     if(pet.age === 50){
             myStopFunction();
     alert("your tomagotchi died of old age");
+    alert("Game over!");
     }
 $('.age').text("Age: " + pet.age)
 }}
@@ -92,6 +97,7 @@ $('.feed-button').click(function(){
     pet.hunger = pet.hunger -3;
     console.log('feed button clicked');
 });
+
 
 $('.play-button').click(function(){
     pet.boredom = pet.boredom -3;

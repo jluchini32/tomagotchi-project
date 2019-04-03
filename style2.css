@@ -15,7 +15,7 @@ position:relative;
 }
 
 #image-1 {
-position:absolute; 
+position:center; 
 top: 0px; 
 left: 0px; 
 z-index: 1; 
@@ -29,9 +29,12 @@ background-color: transparent;
 } 
 
 #flex-box{
-    text-align: center;
+ text-align: center;
 }
 
+button {
+font-family: 'VT323', monospace;
+}
 
 #box2{
     text-align: center;
@@ -83,3 +86,24 @@ font-size: 35px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+
+
+#number-box{
+font-family: 'VT323', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
