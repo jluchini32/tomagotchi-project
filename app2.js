@@ -15,6 +15,7 @@ let age = -1;
 
 
 
+
 class Tomagotchi {
     constructor(name) {
       this.name = name;
@@ -26,6 +27,15 @@ class Tomagotchi {
 }
 let pet;
 pet = new Tomagotchi(name);
+
+const moveGifLeft = () => {
+    $("#image-2").animate({
+            left: "+=200px"
+        }, 1000, function(){   
+    })
+}
+
+
 
 const ageCt = () => {
    $('.age').text("Age: " + pet.age)
@@ -95,6 +105,7 @@ function myStopFunction() {
 
 
 $('.feed-button').click(function(){
+    moveGifLeft();
     pet.hunger = pet.hunger -3;
     console.log('feed button clicked');
 });
