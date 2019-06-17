@@ -35,9 +35,11 @@ const moveGifLeft = () => {
     })
 }
 
+
+
 const moveGifRight = () => {
     $("#image-2").animate({
-            right: "-=200px"
+            left: "-=200px"
         }, 1000, function(){   
     })
 }
@@ -111,13 +113,13 @@ function myStopFunction() {
 
 
 $('.feed-button').click(function(){
-    moveGifLeft();
     pet.hunger = pet.hunger -3;
     console.log('feed button clicked');
 });
 
 
 $('.play-button').click(function(){
+    moveGifLeft();
     pet.boredom = pet.boredom -3;
     console.log('play with button clicked');
 });
@@ -136,10 +138,6 @@ $('.start').click(function(e){
 
    $('#headName').text(inputName);
 
-
-//     let $headName = $('#headName').text()
-//    console.log($headName)
-//     $headName = $inputName
 })
 
 

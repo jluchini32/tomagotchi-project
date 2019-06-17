@@ -9,31 +9,32 @@ h1 {
     color: blue;
 }
 
-
 .container {
-position:relative; 
+    position:relative; 
 }
 
 #image-1 {
-position:center; 
-top: 0px; 
-left: 0px; 
-z-index: 1; 
+    position:center; 
+    width: 90%;
+    top: 0px; 
+    left: 0px; 
+    z-index: 1; 
 } 
+
 #image-2 {
-position:absolute; 
-top: 150px; 
-left: 150px; 
-z-index: 3; 
-background-color: transparent; 
+    position:absolute; 
+    top: 150px; 
+    left: 150px;
+    z-index: 3; 
+    background-color: transparent; 
 } 
 
 #flex-box{
- text-align: center;
+    text-align: center;
 }
 
 button {
-font-family: 'VT323', monospace;
+    font-family: 'VT323', monospace;
 }
 
 #box2{
@@ -45,24 +46,24 @@ font-family: 'VT323', monospace;
 }
 
 .feed-button {
-border-radius: 12px;
-color: blue;
-background-color: gray;
-font-size: 35px;
+    border-radius: 12px;
+    color: blue;
+    background-color: gray;
+    font-size: 35px;
 }
 
 .sleep-button {
-border-radius: 12px;
-background-color: gray;
-color: blue;
-font-size: 35px; 
+    border-radius: 12px;
+    background-color: gray;
+    color: blue;
+    font-size: 35px; 
 }
 
 .play-button {
-border-radius: 12px;
-background-color: gray;
-color: blue;   
-font-size: 35px; 
+    border-radius: 12px;
+    background-color: gray;
+    color: blue;   
+    font-size: 35px; 
 }
 
 .start{
@@ -87,10 +88,8 @@ font-size: 35px;
     box-sizing: border-box;
 }
 
-
-
 #number-box{
-font-family: 'VT323', monospace;
+    font-family: 'VT323', monospace;
 }
 
 
